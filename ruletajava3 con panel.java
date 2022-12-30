@@ -148,7 +148,7 @@ return false;
 }
 
 private static boolean isRed() {
-return winningSlot == 1 || winningSlot == 3 || winningSlot == 5 || winningSlot == 7 || winningSlot == 9
+return winningSlot == 1 || winningSlot 1== 3 || winningSlot == 5 || winningSlot == 7 || winningSlot == 9
 || winningSlot == 12 || winningSlot == 14 || winningSlot == 16 || winningSlot == 18 || winningSlot == 19
 || winningSlot == 21 || winningSlot == 23 || winningSlot == 25 || winningSlot == 27 || winningSlot == 30
 || winningSlot == 32 || winningSlot == 34 || winningSlot == 36;
