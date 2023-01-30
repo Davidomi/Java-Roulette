@@ -292,7 +292,6 @@ public class RuletaCasino extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
         new Login();
-        new RuletaCasino();
 
     }
 

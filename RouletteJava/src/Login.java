@@ -12,7 +12,7 @@ import javax.swing.JTextField;
 
 public class Login extends JFrame implements ActionListener {
 
-    private JLabel lblUsuario, lblPassword;
+    private JLabel lblUsuario, lblPassword, lblInforma;
     private JTextField txtUsuario;
     private JPasswordField txtPassword;
     private JButton btnAceptar, btnCancelar;
@@ -34,6 +34,8 @@ public class Login extends JFrame implements ActionListener {
         txtPassword = new JPasswordField(20);
         btnAceptar = new JButton("Aceptar");
         btnCancelar = new JButton("Cancelar");
+        
+        lblInforma = new JLabel("Usuario: admin | Password: admin");
 
         add(lblUsuario);
         add(txtUsuario);
@@ -41,6 +43,7 @@ public class Login extends JFrame implements ActionListener {
         add(txtPassword);
         add(btnAceptar);
         add(btnCancelar);
+        add(lblInforma);
 
         btnAceptar.addActionListener(this);
         btnCancelar.addActionListener(this);
